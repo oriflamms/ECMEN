@@ -369,7 +369,7 @@
 <!ENTITY ihrlm-tilde-ierusalem "<choice><expan>ier<ex>usa</ex>l<ex>e</ex>m</expan><abbr>ihrl<am>&#x0303;</am>m</abbr></choice>">
 <!ENTITY iherlm-tilde-ierusalem "<choice><expan>ier<ex>usa</ex>l<ex>e</ex>m</expan><abbr>ihrl<am>&#x0303;</am>m</abbr></choice>">
 <!ENTITY irlm-tilde-ierusalem "<choice><expan>i<ex>e</ex>r<ex>usa</ex>l<ex>e</ex>m</expan><abbr>irl<am>&#x0303;</am>m</abbr></choice>">
-<!ENTITY isrl-tilde-israhel "<choice><expan>isr<ex>ahe</ex>l</expan><abbr>isr<am>&#x0303;</am>l</abbr></choice>">
+<!ENTITY isrl-tilde-Israhel "<choice><expan>Isr<ex>ahe</ex>l</expan><abbr>isr<am>&#x0303;</am>l</abbr></choice>">
 <!ENTITY kl-tilde-kalendas "<choice><expan>k<ex>a</ex>l<ex>endas</ex></expan><abbr>kl<am>&#x0303;</am></abbr></choice>">
 <!ENTITY kls-tilde-kalendas "<choice><expan>k<ex>a</ex>l<ex>enda</ex>s</expan><abbr>kls<am>&#x0303;</am></abbr></choice>">
 <!ENTITY loqr-tilde-loquitur "<choice><expan>loq<ex>uitu</ex>r</expan><abbr>loq<am>&#x0303;</am>r</abbr></choice>">
@@ -600,6 +600,7 @@
 
 <!-- ABREVIATIONS PAR SIGNES SPECIAUX -->
 <!ENTITY et-perluette "<choice><expan>et</expan><abbr><am>&amp;</am></abbr></choice>">
+<!ENTITY Et-perluette "<choice><expan>Et</expan><abbr><am>&amp;</am></abbr></choice>">
 <!ENTITY et-perluette-tilde-etiam "<choice><expan>et<ex>iam</ex></expan><abbr><am>&amp;</am><am>&#x0303;</am></abbr></choice>">
 <!ENTITY et-tironien "<choice><expan>et</expan><abbr><am>&#x204A;</am></abbr></choice>">
 <!ENTITY et-tironien-barré "<choice><expan>et</expan><abbr><am>&#xF1A7;</am></abbr></choice>">
@@ -608,6 +609,7 @@
 <!ENTITY co-tironien "<choice><expan>co</expan><abbr><am>&#xA76F;</am></abbr></choice>">
 <!ENTITY con-tironien "<choice><expan>con</expan><abbr><am>&#xA76F;</am></abbr></choice>">
 <!ENTITY com-tironien "<choice><expan>com</expan><abbr><am>&#xA76F;</am></abbr></choice>">
+<!ENTITY Com-tironien "<choice><expan>com</expan><abbr><am>&#xA76F;</am></abbr></choice>">
 <!ENTITY com-tironien-commen "<choice><expan>com<ex>en</ex></expan><abbr><am>&#xA76F;</am></abbr></choice>">
 <!ENTITY cum-tironien "<choice><expan>cum</expan><abbr><am>&#xA76F;</am></abbr></choice>">
 <!ENTITY us-base "<choice><expan>us</expan><abbr><am>&#xF1A6;</am></abbr></choice>">
@@ -615,6 +617,7 @@
 <!-- P et Q -->
 <!ENTITY p-barré-per "<choice><expan>p<ex>er</ex></expan><abbr><am>&#xA751;</am></abbr></choice>">
 <!ENTITY p-barré-peru "<choice><expan>p<ex>eru</ex></expan><abbr><am>&#xA751;</am></abbr></choice>">
+<!ENTITY p-barré-Par "<choice><expan>P<ex>ar</ex></expan><abbr><am>&#xA751;</am></abbr></choice>">
 <!ENTITY p-barré-par "<choice><expan>p<ex>ar</ex></expan><abbr><am>&#xA751;</am></abbr></choice>">
 <!ENTITY p-barré-por "<choice><expan>p<ex>or</ex></expan><abbr><am>&#xA751;</am></abbr></choice>">
 <!ENTITY p-barré-pra "<choice><expan>p<ex>ra</ex></expan><abbr><am>&#xA751;</am></abbr></choice>">
