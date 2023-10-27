@@ -143,6 +143,7 @@
 
 
 <!-- TILDE -->
+<!ENTITY tilde-as "<choice><expan><ex>as</ex></expan><abbr><am>&#x0303;</am></abbr></choice>">
 <!ENTITY fc-tilde-faict "<choice><expan>f<ex>ai</ex>c<ex>t</ex></expan><abbr>fc<am>&#x0303;</am></abbr></choice>">
 <!ENTITY bn-tilde-bien "<choice><expan>b<ex>ie</ex>n</expan><abbr>bn<am>&#x0303;</am></abbr></choice>">
 <!ENTITY cae-tilde-cause "<choice><expan>ca<ex>us</ex>e</expan><abbr>ca<am>&#x0303;</am>e</abbr></choice>">
