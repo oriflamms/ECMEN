@@ -715,6 +715,7 @@
 <!ENTITY h-tilde-hec "<choice><expan>h<ex>ec</ex></expan><abbr>h<am>&#x0303;</am></abbr></choice>">
 <!ENTITY l-tilde-al "<choice><expan><ex>a</ex>l</expan><abbr>l<am>&#x0303;</am></abbr></choice>">
 <!ENTITY l-tilde-el "<choice><expan><ex>e</ex>l</expan><abbr>l<am>&#x0303;</am></abbr></choice>">
+<!ENTITY l-tilde-ele "<choice><expan><ex>e</ex>l<ex>e</ex></expan><abbr>l<am>&#x0303;</am></abbr></choice>">
 <!ENTITY l-tilde-il "<choice><expan><ex>i</ex>l</expan><abbr>l<am>&#x0303;</am></abbr></choice>">
 <!ENTITY l-tilde-ili "<choice><expan><ex>i</ex>l<ex>i</ex></expan><abbr>l<am>&#x0303;</am></abbr></choice>">
 <!ENTITY l-tilde-le "<choice><expan>l<ex>e</ex></expan><abbr>l<am>&#x0303;</am></abbr></choice>">

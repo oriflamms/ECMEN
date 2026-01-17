@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY tilde-ier "<choice><expan><ex>ier</ex></expan><abbr><am>&#x0303;</am></abbr></choice>">
 <!ENTITY tilde-mm "<choice><expan><ex>mm</ex></expan><abbr><am>&#x0303;</am></abbr></choice>">
 <!ENTITY tilde-mes "<choice><expan><ex>mes</ex></expan><abbr><am>&#x0303;</am></abbr></choice>">
 <!ENTITY tilde-nn "<choice><expan><ex>nn</ex></expan><abbr><am>&#x0303;</am></abbr></choice>">
-<!ENTITY con-tironien-cun "<choice><expan>cun</expan><abbr><am>&#xA76F;</am></abbr></choice>">
+<!ENTITY con-tironien-cun "<choice><expan><ex>cun</ex></expan><abbr><am>&#xA76F;</am></abbr></choice>">
+<!ENTITY con-tironien-cun "<choice><expan><ex>cuns</ex></expan><abbr><am>&#xA76F;</am></abbr></choice>">
 <!ENTITY con-tironien-on "<choice><expan>on</expan><abbr><am>&#xA76F;</am></abbr></choice>">
 <!ENTITY con-tironien-c-apostrophe-on "<choice><expan>c'on</expan><abbr><am>&#xA76F;</am></abbr></choice>">
+<!ENTITY con-tironien-c-apostrophe-om "<choice><expan>c'om</expan><abbr><am>&#xA76F;</am></abbr></choice>">
+
 
 <!ENTITY con-tironien-e-suscrit-comme "<choice><expan>com<ex>mm</ex>e</expan><abbr><am>&#xA76F;</am><am>&#x0364;</am></abbr></choice>">
 <!ENTITY x-i-suscrit-Chresti "<choice><expan>Ch<ex>rest</ex>i</expan><abbr>x<am>&#x0365;</am></abbr></choice>">
@@ -137,10 +141,21 @@
 
 <!-- lettres ramistes -->
 <!ENTITY i-dipl-j-norm "<choice><reg>j</reg><orig>i</orig></choice>">
+<!ENTITY i-dipl-J-norm "<choice><reg>J</reg><orig>i</orig></choice>">
 <!ENTITY j-dipl-i-norm "<choice><reg>i</reg><orig>j</orig></choice>">
+<!ENTITY j-dipl-I-norm "<choice><reg>I</reg><orig>j</orig></choice>">
+<!ENTITY I-dipl-j-norm "<choice><reg>j</reg><orig>I</orig></choice>">
+<!ENTITY I-dipl-J-norm "<choice><reg>J</reg><orig>I</orig></choice>">
+<!ENTITY J-dipl-i-norm "<choice><reg>i</reg><orig>J</orig></choice>">
+<!ENTITY J-dipl-I-norm "<choice><reg>I</reg><orig>J</orig></choice>">
 <!ENTITY u-dipl-v-norm "<choice><reg>v</reg><orig>u</orig></choice>">
+<!ENTITY u-dipl-V-norm "<choice><reg>V</reg><orig>u</orig></choice>">
 <!ENTITY v-dipl-u-norm "<choice><reg>u</reg><orig>v</orig></choice>">
-
+<!ENTITY v-dipl-U-norm "<choice><reg>U</reg><orig>v</orig></choice>">
+<!ENTITY U-dipl-v-norm "<choice><reg>v</reg><orig>U</orig></choice>">
+<!ENTITY U-dipl-V-norm "<choice><reg>V</reg><orig>U</orig></choice>">
+<!ENTITY V-dipl-u-norm "<choice><reg>u</reg><orig>V</orig></choice>">
+<!ENTITY V-dipl-U-norm "<choice><reg>U</reg><orig>V</orig></choice>">
 
 <!-- TILDE -->
 <!ENTITY tilde-as "<choice><expan><ex>as</ex></expan><abbr><am>&#x0303;</am></abbr></choice>">
@@ -197,6 +212,7 @@
 <!ENTITY susp-tilde-sion "<choice><expan><ex>sion</ex></expan><abbr><am>&#x0303;</am></abbr></choice>">
 <!ENTITY q-tilde-quel "<choice><expan>q<ex>uel</ex></expan><abbr>q<am>&#x0303;</am></abbr></choice>">
 <!ENTITY h-tilde-har "<choice><expan>h<ex>ar</ex></expan><abbr>h<am>&#x0303;</am></abbr></choice>">
+<!ENTITY p-tilde-paien "<choice><expan>p<ex>aien</ex></expan><abbr>p<am>&#x0303;</am></abbr></choice>">
 <!ENTITY susp-tilde-es "<choice><expan>r<ex>es</ex></expan><abbr><am>&#x0303;</am></abbr></choice>">
 <!ENTITY p-o-suscrit-pour "<choice><expan>p<ex>o</ex>ur</expan><abbr>p<am>&#x0366;</am></abbr></choice>">
 <!ENTITY magd-tilde-magdelaine "<choice><expan>Magd<ex>elaine</ex></expan><abbr>magd<am>&#x0303;</am></abbr></choice>">
@@ -334,7 +350,9 @@ LISTE EN DOUBLE AVEC VARIATIONS MINIMALES
 <!-- VM : ABREVIATIONS ECMEN -->
 
 <!-- ECMEN Tilde -->
-<!ENTITY ihu-tilde-jesus "<choice><expan>j<ex>es</ex>u<ex>s</ex></expan><abbr>ihu<am>&#x0303;</am></abbr></choice>">
+
+<!ENTITY ihu-tilde-Jhesu "<choice><expan>J<ex>hes</ex>u<ex>s</ex></expan><abbr>ih<am>&#x0303;</am>u</abbr></choice>">
+<!ENTITY ihu-tilde-jesus "<choice><expan>j<ex>es</ex>u<ex>s</ex></expan><abbr>ih<am>&#x0303;</am>u</abbr></choice>">
 <!ENTITY chap-tilde-chapitre "<choice><expan>chap<ex>itre</ex></expan><abbr>chap<am>&#x0303;</am></abbr></choice>">
 <!ENTITY Aug-tilde-Augustin "<choice><expan>Aug<ex>ustin</ex></expan><abbr>Aug<am>&#x0303;</am></abbr></choice>">
 <!ENTITY tre-tilde-terre "<choice><expan>t<ex>er</ex>re</expan><abbr>tre<am>&#x0303;</am></abbr></choice>">
@@ -395,6 +413,11 @@ LISTE EN DOUBLE AVEC VARIATIONS MINIMALES
 <!ENTITY Mich-tilde-Michel "<choice><expan>Mich<ex>el</ex></expan><abbr>Mich<am>&#x0303;</am></abbr></choice>">
 <!ENTITY Ph-tilde-Philippes "<choice><expan>Ph<ex>ilippes</ex></expan><abbr>Ph<am>&#x0303;</am></abbr></choice>">
 <!ENTITY thoul-tilde-thoulouse "<choice><expan>thoul<ex>ouse</ex></expan><abbr>thoul<am>&#x0303;</am></abbr></choice>">
+
+
+
+<!ENTITY susp-tilde-ignon "<choice><expan><ex>ignon</ex></expan><abbr><am>&#x0303;</am></abbr></choice>">
+<!ENTITY susp-tilde-oigne "<choice><expan><ex>oigne</ex></expan><abbr><am>&#x0303;</am></abbr></choice>">
 <!ENTITY susp-tilde-sion "<choice><expan><ex>sion</ex></expan><abbr><am>&#x0303;</am></abbr></choice>">
 
 
